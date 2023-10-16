@@ -16,9 +16,13 @@ export const Button = styled.button`
   cursor: pointer;
   border: none;
   border-radius: 5px;
-
+  font-weight: 500;
   &:hover {
     background-color: gray;
     color: #fff;
   }
+`;
+
+export const ButtonText = styled.span`
+  font-weight: 500;
 `;
