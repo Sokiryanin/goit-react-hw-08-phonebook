@@ -1,7 +1,6 @@
 import { DeleteButton, List } from './ContactsList.styled';
 
 import { useDispatch, useSelector } from 'react-redux';
-// import { useEffect } from 'react';
 
 import { selectVisibleContacts } from 'redux/contacts/selectors';
 import { deleteContact } from 'redux/contacts/operations';
